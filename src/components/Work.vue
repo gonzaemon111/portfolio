@@ -20,6 +20,7 @@ import PortFolioImage from "@/assets/PortFolio.jpg";
 import QiitaNewsImage from "@/assets/QiitaNews.jpg";
 import WaffleImage from "@/assets/Waffle.png";
 import MyDiaryImage from "@/assets/MyDiary.jpg";
+import HCRAIImage from "@/assets/HCRAI.png";
 export default {
   data() {
     return {
@@ -61,7 +62,7 @@ export default {
         {
           title: 'HCR-AI',
           explanation: "HandWritten Character Recoginition(手書き文字認識)で機械学習の勉強として実装してみました。初Pythonだったので、文法の勉強も一からはじめました",
-          image: MyDiaryImage,
+          image: HCRAIImage,
           tags: [
             { type: '', label: 'Python' },
             { type: 'success', label: '機械学習' }
