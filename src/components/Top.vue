@@ -5,7 +5,7 @@
       <div class="inner">
         <el-image :src="myProfileImage" class="border_radius_10px"></el-image>
         <div class="MyProfileSentence">
-          {{ msg1 }}
+          {{ msg }}
         </div>
       </div>
     </div>
@@ -17,7 +17,9 @@ import MyProfileImage from "@/assets/MyProfile.jpg";
 export default {
   data() {
     return {
-      msg1: "某W大学 4年 情報理工学科普段は、サーバサイドのAPI開発をしていてRuby、Python、Goを書けます最近は、VueとReactでフロントエンドも勉強中です。普段の開発環境としてDockerを使っており、AWSやGCPなどのインフラやMySQL、Redisなどのミドルウェアもかなり幅広く触れています。",
+      msg: `某W大学 4年 情報理工学科。
+      普段は、サーバサイドのAPI開発をしていてRuby、Python、Goを書けます。
+      最近は、VueとReactでフロントエンドも勉強中です。普段の開発環境としてDockerを使っており、AWSやGCPなどのインフラやMySQL、Redisなどのミドルウェアもかなり幅広く触れています。`,
       myProfileImage: MyProfileImage,
     };
   }

@@ -49,7 +49,7 @@ export default {
   height: 100%;
   max-height: 100%;
   background: linear-gradient(to bottom, #a6d900 0%, #ff4454 100%);
-  opacity: 0.5;
+  opacity: 0.8;
   animation: huerotator 3s infinite alternate;
 }
 </style>
